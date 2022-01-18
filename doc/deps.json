@@ -1,0 +1,16 @@
+
+deps+{
+	luajit+{
+		lua-socket,
+		LUA-SEC,
+		lua-cjson,
+		salt,
+		penlight:{
+			config
+			app
+			}
+		}
+	bash+{
+		zenity
+	     }
+	
